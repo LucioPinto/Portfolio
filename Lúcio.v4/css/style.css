@@ -1,0 +1,106 @@
+/* Tags */
+html {
+    scroll-behavior: smooth;
+}
+
+p {
+    font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: black !important;
+}
+
+section{
+    margin-bottom: 0px !important;
+    padding: 32px !important;
+}
+
+/* Info */
+.foto-perfil {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+/* Personal */
+.aboutParagraph :hover{
+    text-decoration: underline;
+    text-decoration-color: #485563;
+    color: #485563;
+}
+
+.knowledge h3{
+    color: #485563;
+}
+
+/* Professional */
+.linkCompanies{
+    color: inherit;
+    text-decoration: none !important;
+}
+
+.linkCompanies :hover{
+    text-decoration: underline;
+    text-decoration-color: #485563;
+    color: #485563;
+}
+
+/* Formatting */
+.titles {
+    text-decoration: underline;
+    text-underline-position: under;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #485563;
+}
+
+.primaryColor {
+    background-color: white;
+}
+
+.secondaryColor {
+    background-color: #fbfbfb;
+}
+
+.header{
+    background: #485563; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right,#29323c, #485563); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.footer{
+    background: #485563; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right,#29323c, #485563); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+/* Responsive */
+@media screen and (min-width:1200px){
+    #info, #personal, #qualifications{
+        height: 100vh;
+    }
+
+    .icones{
+        margin-bottom: 10%;
+    }
+}
+
+@media screen and (max-width:1120px){
+    .knowledge{
+        display: none;
+    }
+
+    .navbar-brand{
+        margin: 0px !important;
+    }
+}
+
+@media screen and (max-width:520px){
+    .aboutParagraph{
+        display: none;
+    }
+}
