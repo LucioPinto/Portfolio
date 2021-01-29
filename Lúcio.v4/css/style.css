@@ -77,30 +77,3 @@ section{
 .navbar-nav {
     text-align: center;
 }
-
-/* Responsive */
-@media screen and (min-width:1200px){
-    #info, #personal, #qualifications{
-        height: 100vh;
-    }
-
-    .icones{
-        margin-bottom: 10%;
-    }
-}
-
-@media screen and (max-width:1120px){
-    .knowledge{
-        display: none;
-    }
-
-    .navbar-brand{
-        margin: 0px !important;
-    }
-}
-
-@media screen and (max-width:520px){
-    .aboutParagraph{
-        display: none;
-    }
-}
